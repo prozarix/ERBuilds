@@ -1,0 +1,71 @@
+body {
+    background-color: #333030;
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #3f3c3c;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #FFFFFF;
+}
+
+.navbar-light .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .nav-link:hover {
+    color: #FF9800;
+}
+
+.dropdown-menu {
+    background-color: #252525;
+}
+
+.dropdown-item {
+    color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+    background-color: #333333;
+    color: #FF9800;
+}
+
+.card {
+    background-color: #121212;
+    border: 1px solid #333333;
+}
+
+.card-title {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+/* Center-align the main menu items */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set the background color of the content area */
+.content {
+    background-color: #3f3c3c;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+  }
+  ul li {
+    float: left;
+    margin: 0 20px;
+  }
+  ul li a {
+    color: white;
+  }
