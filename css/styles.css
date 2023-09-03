@@ -1,8 +1,40 @@
 body {
-    background-color: #333030;
-    color: #FFFFFF;
-}
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  .navbar {
+    background-color: #333; /* Darker navbar background color */
+  }
+  .dropdown-menu {
+    background-color: #333; /* Darker dropdown background color */
+  }
+  .dropdown-item {
+    color: #fff; /* Light text color for dropdown items */
+  }
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #555; /* Darker background color on hover/focus */
+  }
 
+  /* Custom CSS for adding logos */
+  .dropdown-item-logo {
+    padding-left: 40px; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 25px auto;
+  }
+  .dropdown-item-fire {
+    background-image: url('../img/icons/fire_icon.png'); /* Path to the fire logo image */
+  }
+  .dropdown-item-water {
+    background-image: url('../img/icons/water_icon.png'); /* Path to the water logo image */
+  }
+  .dropdown-item-nature {
+    background-image: url('../img/icons/nature_icon.png'); /* Path to the nature logo image */
+  }
+  
+  /* Add similar styles for other characters */
+/*
 .navbar {
     background-color: #3f3c3c;
     padding: 20px;
@@ -48,6 +80,7 @@ body {
 }
 
 /* Center-align the main menu items */
+/*
 .navbar-nav {
     display: flex;
     justify-content: center;
@@ -55,7 +88,7 @@ body {
 }
 
 /* Set the background color of the content area */
-.content {
+/*.content {
     background-color: #3f3c3c;
 }
 ul {
@@ -68,4 +101,4 @@ ul {
   }
   ul li a {
     color: white;
-  }
+  }*/
